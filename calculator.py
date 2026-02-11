@@ -2,6 +2,13 @@
 Simple Calculator Module
 Author: Alexander Preston
 Date: Feb 11, 2026
+
+This module provides basic arithmetic operations:
+- Addition
+- Subtraction  
+- Multiplication
+- Division (with zero-division protection)
+
 """
 
 def add(a, b):
