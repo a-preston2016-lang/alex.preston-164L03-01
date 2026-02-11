@@ -21,5 +21,16 @@ def multiply(a, b):
     """Return the product of two numbers."""
     return a * b
 
+def divide(a, b):
+    """Return the quotient of two numbers."""
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
+
+
 if __name__ == "__main__":
     print(f"6 * 7 = {multiply(6, 7)}")
+    print(f"20 / 4 = {divide(20, 4)}")
+    print(f"10 / 0 = {divide(10, 0)}")
+
+
