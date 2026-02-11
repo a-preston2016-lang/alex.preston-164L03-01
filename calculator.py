@@ -10,6 +10,8 @@ This module provides basic arithmetic operations:
 - Division (with zero-division protection)
 
 A green bar apears infront of lines that have been changed since the last commit.
+
+the git log show the commit history, including the commit message, author, and date for each commit.
 """
 
 def add(a, b):
