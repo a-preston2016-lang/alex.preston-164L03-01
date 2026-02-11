@@ -9,6 +9,7 @@ This module provides basic arithmetic operations:
 - Multiplication
 - Division (with zero-division protection)
 
+A green bar apears infront of lines that have been changed since the last commit.
 """
 
 def add(a, b):
@@ -28,6 +29,11 @@ def divide(a, b):
     if b == 0:
         return "Error: Division by zero"
     return a / b
+
+def power(base, exponent):
+    """Return base raised to the power of exponent."""
+    return base ** exponent
+
 
 # Test the functions
 if __name__ == "__main__":
